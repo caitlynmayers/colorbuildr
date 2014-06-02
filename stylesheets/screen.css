@@ -66,3 +66,25 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 1, ../sass/modules/_typography.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 7, ../sass/modules/_typography.scss */
+p {
+  font-size: 1rem;
+}
+
+/* line 1, ../sass/modules/_header.scss */
+.header {
+  background-color: #336699;
+  height: 60px;
+  width: 100%;
+}
+
+/* line 1, ../sass/modules/_footer.scss */
+.footer {
+  background-color: #373b3f;
+}
