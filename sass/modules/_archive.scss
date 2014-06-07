@@ -1,0 +1,24 @@
+.archive {
+	
+	background-color: fuchsia;
+	width: $content-width;
+	margin: 0 auto;
+	height: inherit;
+	overflow: auto;
+	
+	.build-list {
+		
+		width: 60%;
+		background-color: green;
+		margin: 0 auto;
+		
+		.color-values {
+			
+			float: left;
+			height: inherit;
+			
+			}
+		
+		}
+	
+}

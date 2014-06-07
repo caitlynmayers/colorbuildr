@@ -84,7 +84,71 @@ p {
   width: 100%;
 }
 
+/* line 11, ../sass/modules/_header.scss */
+.nav ul {
+  float: right;
+  list-style-type: none;
+}
+/* line 16, ../sass/modules/_header.scss */
+.nav ul li {
+  float: left;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+/* line 22, ../sass/modules/_header.scss */
+.nav ul li a {
+  display: block;
+}
+
+/* line 3, ../sass/modules/_content.scss */
+.content {
+  background-color: #f7f7f7;
+  height: inherit;
+  overflow: auto;
+}
+/* line 9, ../sass/modules/_content.scss */
+.content .builder-area {
+  background-color: aqua;
+  width: 85%;
+  margin: 0 auto;
+  height: 300px;
+}
+/* line 16, ../sass/modules/_content.scss */
+.content .builder-area .build-form {
+  float: left;
+  height: inherit;
+}
+/* line 25, ../sass/modules/_content.scss */
+.content .swatch {
+  width: 25%;
+  height: inherit;
+  float: left;
+}
+
+/* line 1, ../sass/modules/_archive.scss */
+.archive {
+  background-color: fuchsia;
+  width: 85%;
+  margin: 0 auto;
+  height: inherit;
+  overflow: auto;
+}
+/* line 9, ../sass/modules/_archive.scss */
+.archive .build-list {
+  width: 60%;
+  background-color: green;
+  margin: 0 auto;
+}
+/* line 15, ../sass/modules/_archive.scss */
+.archive .build-list .color-values {
+  float: left;
+  height: inherit;
+}
+
 /* line 1, ../sass/modules/_footer.scss */
 .footer {
   background-color: #373b3f;
+  clear: both;
+  width: 100%;
+  position: fixed;
 }

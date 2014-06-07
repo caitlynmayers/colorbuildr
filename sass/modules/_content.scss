@@ -1,5 +1,33 @@
+$content-width: 85%;
+
 .content {
 	
 	background-color: $background-color;
+	height: inherit;
+	overflow: auto;
+
+	.builder-area {
+		
+		background-color: aqua;
+		width: $content-width;
+		margin: 0 auto;
+		height: 300px;
+			
+		.build-form {
+			
+			float: left;
+			height: inherit;
+			
+			}
+
+		}
+		
+	.swatch {
+		
+		width: 25%;
+		height: inherit;
+		float: left;
+		
+		}
 	
 }
